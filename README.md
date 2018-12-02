@@ -1,24 +1,4 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# MiTorneo
+El proyecto de "MiTorneo" es un desarrollo que realicé con Ruby On Rails para torneos de fútbol. Se han usado distintas gemas
+para distintos propósitos que puedes revisar en el código.

@@ -2,159 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e825f49-1e25-4ea1-aa2d-1d3155d2a416" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/mitorneo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.ruby-version" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/config/manifest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/cable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/channels/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/channels/application_cable/channel.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/channels/application_cable/connection.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/championships_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/concerns/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/dashboard_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/home_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/inscriptions_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/matches_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/weeks_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/jobs/application_job.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/mailers/application_mailer.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/application_record.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/championship.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/concerns/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/match.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/player.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/team.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/week.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/championships/_form.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/championships/_week_fields.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/championships/edit.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/championships/new.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/championships/show.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/dashboard/_sidenav.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/dashboard/index.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/dashboard/search.js.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/confirmations/new.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/mailer/confirmation_instructions.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/mailer/email_changed.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/mailer/password_change.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/mailer/reset_password_instructions.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/mailer/unlock_instructions.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/passwords/edit.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/passwords/new.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/registrations/edit.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/registrations/new.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/sessions/new.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/shared/_links.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/unlocks/new.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/home/index.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/inscriptions/_form.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/inscriptions/edit.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/inscriptions/index.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/inscriptions/new.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/inscriptions/show.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/layouts/_navbar.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/layouts/application.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/layouts/mailer.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/layouts/mailer.text.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/matches/_form.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/matches/_summary.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/matches/edit.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/matches/new.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/matches/show.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/weeks/_form.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/weeks/_match_fields.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/weeks/edit.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/weeks/new.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/weeks/show.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/bundle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/rails" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/rake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/setup" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/spring" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/update" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/yarn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.ru" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/boot.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/cable.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/credentials.yml.enc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/environment.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/environments/production.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/environments/test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/initializers/application_controller_renderer.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/initializers/assets.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/initializers/backtrace_silencers.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/initializers/content_security_policy.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/initializers/cookies_serializer.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/initializers/devise.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/initializers/filter_parameter_logging.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/initializers/inflections.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/initializers/mime_types.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/initializers/simple_form.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/initializers/wrap_parameters.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/locales/devise.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/locales/en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/locales/simple_form.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/puma.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/spring.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/storage.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20181201193143_devise_create_users.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20181201200404_create_championships.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20181201200707_create_weeks.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20181201201115_create_matches.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20181201201153_create_teams.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20181201201307_create_players.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20181202131540_add_name_to_weeks.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/assets/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/tasks/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/templates/haml/scaffold/_form.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/422.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/500.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/apple-touch-icon-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/application_system_test_case.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/controllers/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fixtures/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fixtures/files/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fixtures/users.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/helpers/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/integration/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/mailers/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/models/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/models/user_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/system/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/.keep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -179,6 +27,7 @@
           <entry key="js" value="3" />
           <entry key="json" value="1" />
           <entry key="lock" value="1" />
+          <entry key="md" value="1" />
           <entry key="rb" value="59" />
           <entry key="scss" value="5" />
           <entry key="yml" value="1" />
@@ -190,6 +39,7 @@
           <entry key="Haml" value="61" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="3" />
+          <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="65" />
           <entry key="SCSS" value="5" />
           <entry key="YAML" value="1" />
@@ -228,11 +78,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/matches/_summary.html.haml">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="5" selection-start-column="5" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="69">
+                <caret line="3" column="58" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -312,7 +174,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20181201193143_devise_create_users.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/controllers/home_controller.rb" />
@@ -363,6 +224,7 @@
         <option value="$PROJECT_DIR$/app/views/dashboard/index.html.haml" />
         <option value="$PROJECT_DIR$/app/views/dashboard/search.js.erb" />
         <option value="$PROJECT_DIR$/app/views/matches/_summary.html.haml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -529,15 +391,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543691135760</updated>
-      <workItem from="1543691136885" duration="52705000" />
+      <workItem from="1543691136885" duration="53139000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52705000" />
+    <option name="totallyTimeSpent" value="53139000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="456" y="172" width="1922" height="1111" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="DB Browser" order="1" weight="0.32959402" />
@@ -592,13 +455,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/migrate/20181201200404_create_championships.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20181201193143_devise_create_users.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5">
@@ -941,6 +797,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="69">
+            <caret line="3" column="58" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
