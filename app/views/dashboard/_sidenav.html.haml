@@ -1,0 +1,25 @@
+%ul.sidenav.sidenav-fixed
+  %li.bold{style: "padding: 0 32px;"}
+    %h4 MiTorneo
+  .content-sidebar{style: "height: 91%;"}
+    .sidebar-element-container{style: "height: 33%;"}
+      %li.bold{style: "padding: 0 32px;"} Torneos
+      - championships.each do |championship|
+        %li{class: current_championship == championship ? 'bold active': 'bold'}
+          = link_to "#{championship.name}", dashboard_search_path(championship_id: championship.id), remote: true
+      %li.bold
+        = link_to "Crear torneo...", new_championship_path()
+    .sidebar-element-container{style: "height: 33%;"}
+      %li.bold{style: "padding: 0 32px;"} Fechas
+      - current_championship.weeks.order(:date).each do |week|
+        %li{class: @current_week == week ? 'bold active': 'bold'}
+          = link_to "#{week.name}", dashboard_search_path(week_id: week.id), remote: true
+      %li.bold
+        = link_to "Agregar fecha a este campeonato...", new_championship_week_path(championship_id: current_championship.id)
+    .sidebar-element-container{style: "height: 33%;"}
+      %li.bold{style: "padding: 0 32px;"} Partidos
+      - current_week.matches.order(:date).each do |match|
+        %li{class: @current_match == match ? 'bold active': 'bold'}
+          = link_to "#{match.local.short_name} - #{match.visitor.short_name}", dashboard_search_path(match_id: match.id), remote: true
+      %li.bold
+        = link_to "Crear partidos para esta fecha...", new_week_match_path(week_id: current_week)

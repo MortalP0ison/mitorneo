@@ -1,0 +1,19 @@
+{
+  "name": "mitorneo",
+  "private": true,
+  "dependencies": {
+    "materialize-css": "^1.0.0-rc.2"
+  },
+  "description": "This README would normally document whatever steps are necessary to get the application up and running.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luis Eduardo Jácome",
+  "license": "ISC"
+}

@@ -1,0 +1,10 @@
+.nested-fields.row
+  .col.m5
+    = f.input     :name, wrapper_html: {class: 'input-field'}
+  .col.m5
+    = f.input     :date, as: :string, wrapper_html: {class: 'input-field'}, input_html: {class: 'datepicker'}
+  .col.m2
+    = link_to_remove_association "Quitar fecha", f
+
+  :javascript
+    M.AutoInit()

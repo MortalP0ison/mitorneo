@@ -1,0 +1,16 @@
+= simple_form_for [@championship, @week] do |f|
+  = f.input :name, wrapper_html: {class: 'input-field'}
+  = f.input :date, as: :string, wrapper_html: {class: 'input-field'}, input_html: {class: 'datepicker'}
+  = f.input :championship_id, as: :hidden
+  %h5 Partidos
+  #matches
+    = f.simple_fields_for :matches do |match|
+      = render 'match_fields', f: match
+    .links
+      = link_to_add_association 'Añadir partido', f, :matches
+
+
+  = f.button  :submit, class: 'btn btn-primary'
+
+:javascript
+  M.AutoInit();

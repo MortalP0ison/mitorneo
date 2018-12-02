@@ -1,0 +1,16 @@
+= simple_form_for [@week, @match] do |f|
+  %h5 Partidos
+  .nested-fields.row
+  .col.m5
+    = f.input     :local_id, as: :select, collection: @teams.map{|team| ["#{team.name} (#{team.short_name})", team.id]}, wrapper_html: {class: 'input-field'}, include_blank: false
+  %center
+    %span VS
+  .col.m5
+    = f.input     :visitor_id, as: :select, collection: @teams.map{|team| ["#{team.name} (#{team.short_name})", team.id]}, wrapper_html: {class: 'input-field'}, include_blank: false
+  .col.m2
+    = f.input :week_id, as: :hidden, input_html: {value: @week.id}
+
+  = f.button  :submit, class: 'btn btn-primary'
+
+:javascript
+  M.AutoInit();

@@ -1,0 +1,8 @@
+/ Navbar goes here
+/ Page Layout here
+#dashboard_sidenav
+  = render partial: "sidenav", locals: {championships: @championships, current_championship: @current_championship, current_week: @current_week, current_match: @current_match}
+
+%main.content-with-sidenav
+  .container-with-sidenav#match_summary
+    = render partial: "matches/summary", locals: {match: @current_match}

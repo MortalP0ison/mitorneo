@@ -1,0 +1,11 @@
+= simple_form_for @championship do |f|
+  = f.input   :name
+  = f.input   :city
+  .input-field
+    = f.input   :start_date, as: :date
+  .input-field
+    = f.input   :end_date, as: :date
+  = f.button  :submit
+
+:javascript
+  M.AutoInit();

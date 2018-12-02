@@ -1,0 +1,6 @@
+%h3 Bienvenido a Mi torneo
+%p Aquí podras consultar los resultados de tus partidos en los torneos que juegas
+- if user_signed_in?
+  = link_to "Cerrar sesión", destroy_user_session_path, method: :delete
+- else
+  = link_to "Iniciar sesión", new_user_session_path

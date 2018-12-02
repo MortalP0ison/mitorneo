@@ -1,0 +1,10 @@
+.nested-fields.row
+  .col.m5
+    = f.input     :local_id, as: :select, collection: @teams.map{|team| ["#{team.name} (#{team.short_name})", team.id]}, wrapper_html: {class: 'input-field'}, include_blank: false
+  .col.m5
+    = f.input     :visitor_id, as: :select, collection: @teams.map{|team| ["#{team.name} (#{team.short_name})", team.id]}, wrapper_html: {class: 'input-field'}, include_blank: false
+  .col.m2
+    = link_to_remove_association "Quitar partido", f
+
+  :javascript
+    $('select').formSelect();

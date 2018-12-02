@@ -1,0 +1,2 @@
+$('#dashboard_sidenav').html(`<%= raw render partial: 'dashboard/sidenav', locals: {championships: @championships, current_championship: @current_championship, current_week: @current_week, current_match: @current_match} %>`);
+$('#match_summary').html(`<%= raw render partial: "matches/summary", locals: {match: @current_match} %>`);

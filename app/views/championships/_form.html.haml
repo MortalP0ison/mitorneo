@@ -1,0 +1,19 @@
+= simple_form_for @championship do |f|
+  = f.input   :name, wrapper_html: {class: 'input-field'}
+  = f.input   :city, wrapper_html: {class: 'input-field'}
+  = f.input   :start_date, as: :string, input_html: {class: 'datepicker'}, wrapper_html: {class: 'input-field'}
+  = f.input   :end_date, as: :string, input_html: {class: 'datepicker'}, wrapper_html: {class: 'input-field'}
+  %h5 Fechas
+  #weeks
+    = f.simple_fields_for :weeks do |week|
+      = render 'week_fields', f: week
+    .links
+      = link_to_add_association 'Añadir fecha', f, :weeks
+
+  = f.button  :submit, class: 'btn btn-primary'
+
+
+= link_to "Regresar",  dashboard_path()
+
+:javascript
+  M.AutoInit();

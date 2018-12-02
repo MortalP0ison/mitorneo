@@ -1,0 +1,60 @@
+- if match.nil?
+  %p No se ha seleccionado un partido
+- else
+  .row
+    %h5="Detalles partido #{match.local.name} - #{match.visitor.name}"
+    %hr
+    .row
+      .col.s12
+        %h5= "RESULTADO"
+        %form{:action => "#"}
+          %p
+            %label
+              %input{:checked => "checked", :name => "group1", :type => "radio"}/
+              %span LOC
+              %input{:checked => "checked", :name => "group1", :type => "radio"}/
+              %span VIS
+              %input{:checked => "checked", :name => "group1", :type => "radio"}/
+              %span EMP4
+
+          %a.waves-effect.waves-light.btn SUBIR FOTO PLANILLA
+
+    %hr
+    .row
+      .col.s4
+        %h5= "Local: #{match.local.name}"
+        %form{:action => "#"}
+          - (0..9).each do |element|
+            %p
+              %label
+                %input.filled-in{ :type => "checkbox"}/
+                %span= "#{element+1} Jugador #####{element+1}"
+      .col.s4
+        %h5= "Visitante: #{match.visitor.name}"
+        %form{:action => "#"}
+          - (0..9).each do |element|
+            %p
+              %label
+                %input.filled-in{ :type => "checkbox"}/
+                %span= "#{element+1} Jugador #####{element+1}"
+
+
+      .col.s4
+
+        .col.s12
+          %h5= "EDICIÓN POR LOTE"
+        .col.s12
+          %h5= "GOLES"
+          %input#last_name.validate{:placeholder => "2", :type => "text"}/
+          %center
+            %a.waves-effect.waves-light.btn-large Agregar
+        .col.s12
+
+          %h5= "TARJETAS"
+          %select
+            %option{:disabled => "disabled", :selected => "selected", :value => ""} Selecciona tu opción
+            %option{:value => "1"} Amarilla
+            %option{:value => "2"} Blanca
+            %option{:value => "3"} Roja
+            %option{:value => "3"} Azul
+          %input#last_name.validate{:placeholder => "2", :type => "text"}/

@@ -1,0 +1,57 @@
+-#%a= "#{current_user.email}"
+%nav
+  .nav-wrapper
+    %a.brand-logo{:href => "#"} MI TORNEO
+
+    %ul#nav-mobile.right.hide-on-med-and-down
+      %li
+        %a{:href => "sass.html"} INICIO
+      %li
+        %a{:href => "badges.html"} INSCRIPCIONES
+      %li
+        %a{:href => "collapsible.html"} TARJETAS
+      %li
+        %a{:href => "collapsible.html"} PLANILLAS
+      %li
+        %a{:href => "collapsible.html"} ARCHIVOS
+      / Dropdown Trigger
+      %a.dropdown-trigger.btn{"data-target" => "dropdown1", :href => "#"} TABLAS
+      / Dropdown Structure
+      %ul#dropdown1.dropdown-content
+        %li
+          %a{:href => "#!"} one
+        %li
+          %a{:href => "#!"} two
+        %li.divider{:tabindex => "-1"}
+        %li
+          %a{:href => "#!"} three
+        %li
+          %a{:href => "#!"}
+            %i.material-icons> view_module
+            four
+        %li
+          %a{:href => "#!"}
+            %i.material-icons> cloud
+            five
+
+
+/ Navbar goes here
+/ Page Layout here
+.row
+  .col.s12.m4.l3
+    .col.s12
+      %h5="TORNEOS"
+
+
+
+    .col.s12
+      %h5="TORNEO EQUIPOS"
+  .col.s12.m4.l3
+    .col.s12
+      %center
+        %h5="AGREGUE JUGADORES"
+        %h5="NAME OF TEAM"
+  .col.s12.m4.l3
+    .col.s12
+      %center
+        %h5="JUGADORES"
